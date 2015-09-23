@@ -3,7 +3,6 @@
 ## 使用Dockerfile 创建
 
 1. 创建 Dockerfile
-
 ```
 FROM centos
 RUN yum install -y squid
@@ -90,7 +89,7 @@ refresh_pattern -i (/cgi-bin/|\?) 0	0%	0
 refresh_pattern .		0	20%	4320
 ```
 3. docker build -t squid . 
-4. docker run -d -p 3128:3128 squid /usr/sbin/squid -N 
+4. docker run -d -p 3128:3128 squid /usr/sbin/squid -N  
     启动 docker 运行squid
 
 ## 使用交互方式创建
