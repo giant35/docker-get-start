@@ -8,4 +8,6 @@
 ## 运行
 * centos7 : 
     1. service docker start; 
-    2. docker run -it centos /bin/bash 
+    2. docker run -it centos /bin/bash  
+        此命令已centos镜像为基础启动一个虚拟机并运行/bin/bash 。
+    3. 
