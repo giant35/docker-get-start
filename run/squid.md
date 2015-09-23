@@ -90,7 +90,7 @@ refresh_pattern .		0	20%	4320
 ```  
 
 
-3. fdsafdsa
+3. docker build -t squid . 
 
 ## 使用交互方式创建
 centos7:
