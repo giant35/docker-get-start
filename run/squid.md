@@ -3,7 +3,6 @@
 ## 使用Dockerfile 创建
 
 1. 创建 Dockerfile
-
 ```
 FROM centos
 RUN yum install -y squid
@@ -11,7 +10,7 @@ ADD ./squid.conf /etc/squid/squid.conf
 EXPOSE 3128
 CMD /usr/sbin/squid -N 
 ```
-2. 创建 squid.conf 增加 http_access allow all   
+2. 创建 squid.conf 增加 http_access allow all
 
 ```
 #
