@@ -11,4 +11,3 @@ centos7:
    
 4. docker run -d -p 3128:3128 squid /usr/sbin/squid -N 
     启动 docker 运行squid
-5. 
