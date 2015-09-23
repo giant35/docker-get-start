@@ -88,7 +88,6 @@ refresh_pattern ^gopher:	1440	0%	1440
 refresh_pattern -i (/cgi-bin/|\?) 0	0%	0
 refresh_pattern .		0	20%	4320
 ```
-
 3. docker build -t squid . 
 
 ## 使用交互方式创建
