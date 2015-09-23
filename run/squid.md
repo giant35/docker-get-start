@@ -10,6 +10,8 @@ ADD ./squid.conf /etc/squid/squid.conf
 EXPOSE 3128
 CMD /usr/sbin/squid -N 
 ```
+squid.conf  增加 http_access allow all
+
 
 
 ## 使用交互方式创建
