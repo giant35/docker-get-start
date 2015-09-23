@@ -104,6 +104,6 @@ centos7:
     启动 docker 运行squid
 
 
-docker build -t squid:2
+5. docker build -t squid:2
 
 ##
