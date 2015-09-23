@@ -101,9 +101,8 @@ centos7:
    增加
 4. docker commit contianerId squid  
    containerId 通过 docker ps -l 获得
-   
 5. docker build -t squid:2
-4. docker run -d -p 3128:3128 squid /usr/sbin/squid -N 
+6. docker run -d -p 3128:3128 squid /usr/sbin/squid -N 
     启动 docker 运行squid
 
 
