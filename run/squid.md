@@ -1,5 +1,15 @@
 # Docker 运行 Squid
 
+## 使用Dockerfile 创建
+```
+FROM centos
+RUN yum install -y squid
+ADD ./squid.conf /etc/squid/squid.conf
+EXPOSE 3128
+CMD /usr/sbin/squid -N 
+```
+
+## 使用交互方式创建
 centos7:
 
 1. docker run -it centos /bin/bash
@@ -14,3 +24,5 @@ centos7:
 
 
 docker build -t squid:2
+
+##
