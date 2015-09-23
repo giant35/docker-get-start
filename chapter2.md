@@ -1,6 +1,11 @@
 # Docker 演练
 
-1. 安装
-    
+## 安装
+* centos7 : sudo yum install docker  
 
-2. 运行
+
+
+## 运行
+* centos7 : 
+    1. service docker start; 
+    2. docker run -it centos /bin/bash 
